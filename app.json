@@ -1,5 +1,6 @@
 {
   "expo": {
+    "owner": "shinseunghoon",
     "name": "firstApp",
     "slug": "firstApp",
     "version": "1.0.0",
@@ -24,10 +25,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.shinseunghoon.firstApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3eebb7e1-a1fd-4a5f-b501-c2b7d9f475b2"
+      }
     }
   }
 }
